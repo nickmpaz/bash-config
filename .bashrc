@@ -125,3 +125,4 @@ done
 set_ps1
 time_of_day
 export PATH=$PATH:/home/npaz/Projects/do-it
+export PATH=$PATH:/home/npaz/Projects/clp

@@ -1,6 +1,6 @@
 
 function set_ps1 {
-	PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\[\033[38;5;14m\]\u\[\033[01;32m\]]\[\033[01;32m\][\[\033[38;5;14m\]\W\[\033[01;32m\]]$(set_ps1_helper) : \[$(tput sgr0)\]'
+	PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\[\033[38;5;14m\]\W\[\033[01;32m\]]$(set_ps1_helper) : \[$(tput sgr0)\]'
 }
 
 

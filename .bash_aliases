@@ -1,10 +1,8 @@
 # ssh
-# raspi: home - 1 pass=rp1
-alias sshrp1='ssh pi@$(gethost rp1)'
-# raspi: treeline lab
-alias sshlab='ssh pi@pi-lab-sensor.local'
-# ec2: virtual device portal server
-alias sshtako='ssh -i ~/Treeline/aws_login/tako_dev.pem ubuntu@ec2-54-200-227-26.us-west-2.compute.amazonaws.com'
+
+
+alias sshlab='ssh pi@pi-lab-sensor.local' #treeline lab sensor
+alias sshtako='ssh -i ~/Treeline/aws_login/tako_dev.pem ubuntu@ec2-54-200-227-26.us-west-2.compute.amazonaws.com' #virtual device portal server
 
 # docs
 alias bashrc='vim ~/.bashrc'
